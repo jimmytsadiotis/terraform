@@ -18,7 +18,7 @@ jobs:
           soft_fail: true
   test:
     runs-on: ubuntu-20.04
-    needs: build
+    needs: tfsec
     steps:
       - run: echo "This is a test step"
 
